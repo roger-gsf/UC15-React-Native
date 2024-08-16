@@ -1,0 +1,13 @@
+-> Open PowerShell
+-> run "npx create-expo-app --template"
+-> Select "Blank (TypeScript)"
+
+How to open your app web:
+-> run "npx expo"
+-> Press "w"
+-> Press "ctrl+c"
+-> run "npx expo install react-native-web 
+react-dom @expo/metro-runtime"
+-> run "npm install --force"
+-> run "npx expo"
+-> Press "w"
