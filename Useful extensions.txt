@@ -1,0 +1,6 @@
+-> Extension: Color Highlight
+-> Extension: FiraCode font - Professional Font for Developers
+--> ctrl+shift+p
+--> Select "Activate FiraCode Font Pack"
+--> ctrl+,
+--> Search font family and select "Fira Code"

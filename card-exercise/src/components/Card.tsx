@@ -1,9 +1,16 @@
-import { View, Text } from "react-native"
+import { Text } from "react-native";
+import Header from "../components/Header";
+import Main from "../components/Main";
+import Footer from "../components/Footer";
 
 const Card = () => {
-    return (
-        <View><Text>Anything</Text></View>
-    )
-}
+  return (
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
+  );
+};
 
 export default Card;
