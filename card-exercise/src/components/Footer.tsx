@@ -1,8 +1,9 @@
+import { Text } from 'react-native';
 
-
-const Footer () => {
-    return(
+const Footer = () => {
+    return (
         <>
+            <Text>This is the footer</Text>
         </>
     )
 }

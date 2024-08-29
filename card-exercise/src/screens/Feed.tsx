@@ -1,4 +1,4 @@
-import { View, Text, SafeAreaView } from "react-native";
+import { SafeAreaView } from "react-native";
 import Card from "../components/Card";
 
 const Feed = () => {

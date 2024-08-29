@@ -1,8 +1,10 @@
-import {View, Text} from "react-native";
+import { Text } from "react-native";
 
 const Header = () => {
     return (
-        <Text>Anything</Text>
+        <>
+            <Text>This is the header</Text>
+        </>
     )
 }
 
