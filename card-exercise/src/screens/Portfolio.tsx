@@ -1,7 +1,7 @@
 import { SafeAreaView } from "react-native";
 import Card from "../components/Card";
 
-const Feed = () => {
+const Portfolio = () => {
     return (
         <SafeAreaView>
             <Card />
@@ -9,4 +9,4 @@ const Feed = () => {
     )
 }
 
-export default Feed;
+export default Portfolio;

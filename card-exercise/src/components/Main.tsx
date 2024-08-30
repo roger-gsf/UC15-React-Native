@@ -4,7 +4,7 @@ const Main = () => {
   return (
     <>
       <Image
-        source={{ uri: "https://robohash.org/dog" }}
+        source={{ uri: "https://robohash.org/anything" }}
         style={styles.img}
       ></Image>
     </>
