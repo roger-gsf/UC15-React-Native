@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from "react-native";
 const Header = () => {
     return (
         <View style={styles.header}>
-            <Text style={styles.headerText}>My Portfolio</Text>
+            <Text style={styles.headerText}>Róger Ferreira - Software Developer</Text>
         </View>
     )
 }
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     },
     headerText: {
         color: "#ffffff",
-        fontSize: 18,
+        fontSize: 22,
         textAlign: "center",
         fontWeight: "bold",
     },

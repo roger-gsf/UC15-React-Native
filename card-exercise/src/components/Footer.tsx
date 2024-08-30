@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from "react-native";
 const Footer = () => {
     return (
         <View style={styles.footer}>
-            <Text style={styles.footerText}>This is the footer</Text>
+            <Text style={styles.footerText}>Contact: rogergustavosf@gmail.com</Text>
         </View>
     )
 }

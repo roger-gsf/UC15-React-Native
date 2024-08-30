@@ -1,13 +1,13 @@
 import { SafeAreaView, ScrollView, StyleSheet } from "react-native";
 import Card from "../components/Card";
+import Projects from "../components/Projects";
 
-const Portfolio = () => {
+const Home = () => {
     return (
         <SafeAreaView style={styles.container}>
             <ScrollView contentContainerStyle={styles.scrollContainer}>
                 <Card />
-                <Card />
-                <Card />
+                {/* <Projects /> */}
             </ScrollView>
         </SafeAreaView>
     )
@@ -25,4 +25,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default Portfolio;
+export default Home;
