@@ -1,11 +1,26 @@
-import { Text } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 
 const Footer = () => {
     return (
-        <>
-            <center><Text>This is the footer</Text></center>
-        </>
+        <View style={styles.footer}>
+            <Text style={styles.footerText}>This is the footer</Text>
+        </View>
     )
 }
+
+const styles = StyleSheet.create({
+    footer: {
+        backgroundColor: "#402319",
+        paddingVertical: 10,
+        paddingHorizontal: 10,
+        borderBottomLeftRadius: 10,
+        borderBottomRightRadius: 10,
+    },
+    footerText: {
+        color: "#ffffff",
+        textAlign: "center",
+        fontSize: 14,
+    },
+});
 
 export default Footer;
