@@ -4,7 +4,7 @@
 
 How to open your app web:
 -> Run "npx expo"
--> Rress "w"
+-> Press "w"
 -> Press "ctrl+c"
 -> Run "npx expo install react-native-web react-dom @expo/metro-runtime"
 -> Run "npm install --force"
