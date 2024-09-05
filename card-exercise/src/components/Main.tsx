@@ -12,8 +12,10 @@ const Main = () => {
       <Text style={styles.text}>
         - JavaScript{'\n'}
         - TypeScript{'\n'}
+        - NodeJS{'\n'}
         - Java{'\n'}
-        - SQL{'\n'}
+        - MySQL{'\n'}
+        - SQL Server{'\n'}
         - Python
       </Text>
     </View>
@@ -24,7 +26,6 @@ const styles = StyleSheet.create({
   main: {
     backgroundColor: "#f7f7f7",
     padding: 20,
-    marginBottom: 20,
   },
   title: {
     fontSize: 18,

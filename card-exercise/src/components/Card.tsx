@@ -2,12 +2,14 @@ import { View, StyleSheet } from "react-native";
 import Header from "../components/Header";
 import Main from "../components/Main";
 import Footer from "../components/Footer";
+import Projects from "./Projects";
 
 const Card = () => {
   return (
     <View style={styles.card}>
       <Header />
       <Main />
+      <Projects />
       <Footer />
     </View>
   );
