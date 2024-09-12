@@ -1,23 +1,25 @@
 import { View, Text, StyleSheet } from "react-native";
+import Projects from "./Projects";
 
 const Main = () => {
   return (
     <View style={styles.main}>
       <Text style={styles.title}>About me</Text>
       <Text style={styles.text}>
-        My name is Róger Ferreira, I'm 18 years old and I'm a programming student. 
+        My name is Róger Ferreira, I'm 18 years old and I'm a programming student.
         Currently, I'm doing a technician course in systems development and I have knowledge in several programming languages.
       </Text>
       <Text style={styles.title}>Skills</Text>
       <Text style={styles.text}>
-        - JavaScript{'\n'}
-        - TypeScript{'\n'}
-        - NodeJS{'\n'}
-        - Java{'\n'}
-        - MySQL{'\n'}
-        - SQL Server{'\n'}
-        - Python
+        -{">"} JavaScript{'\n'}
+        -{">"} TypeScript{'\n'}
+        -{">"} NodeJS{'\n'}
+        -{">"} Java{'\n'}
+        -{">"} MySQL{'\n'}
+        -{">"} SQL Server{'\n'}
+        -{">"} Python
       </Text>
+      <Projects />
     </View>
   )
 }

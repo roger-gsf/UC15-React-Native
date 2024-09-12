@@ -17,7 +17,6 @@ const Projects = () => {
 const styles = StyleSheet.create({
     projects: {
         backgroundColor: "#f7f7f7",
-        padding: 20,
         marginBottom: 20,
     },
     title: {
