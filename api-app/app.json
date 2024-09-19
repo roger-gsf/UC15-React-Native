@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "login",
-    "slug": "login",
+    "name": "api-app",
+    "slug": "api-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
