@@ -15,17 +15,11 @@ const Card = () => {
 
 const styles = StyleSheet.create({
   card: {
+    backgroundColor: '#d9d9d9',
     textAlign: 'center',
-    backgroundColor: '#ffffff',
-    borderRadius: 10,
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 1.5 },
-    shadowOpacity: 0.8,
-    shadowRadius: 2,
-    elevation: 5,
-    marginBottom: 20,
     width: '100%',
-    height: '100%'
+    height: '100%',
+    flex: 1
   },
 });
 

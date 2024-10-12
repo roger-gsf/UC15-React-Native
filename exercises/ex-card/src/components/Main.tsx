@@ -26,18 +26,21 @@ const Main = () => {
 
 const styles = StyleSheet.create({
   main: {
-    backgroundColor: "#f7f7f7",
+    flex: 1,
+    backgroundColor: "#171F26",
     padding: 20,
+    display: 'flex',
+    justifyContent: 'center',
   },
   title: {
     fontSize: 18,
     fontWeight: "bold",
     marginBottom: 10,
-    color: "#014017",
+    color: "#005C53",
   },
   text: {
     fontSize: 16,
-    color: "#000000",
+    color: "#d9d9d9",
     marginBottom: 20,
   },
 });

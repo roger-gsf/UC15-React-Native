@@ -10,11 +10,9 @@ const Footer = () => {
 
 const styles = StyleSheet.create({
     footer: {
-        backgroundColor: "#402319",
+        backgroundColor: "#005C53",
         paddingVertical: 10,
         paddingHorizontal: 10,
-        borderBottomLeftRadius: 10,
-        borderBottomRightRadius: 10,
     },
     footerText: {
         color: "#ffffff",

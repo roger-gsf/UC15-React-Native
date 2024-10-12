@@ -16,18 +16,17 @@ const Projects = () => {
 
 const styles = StyleSheet.create({
     projects: {
-        backgroundColor: "#f7f7f7",
         marginBottom: 20,
     },
     title: {
         fontSize: 18,
         fontWeight: "bold",
         marginBottom: 10,
-        color: "#014017",
+        color: "#005C53",
     },
     text: {
         fontSize: 16,
-        color: "#000000",
+        color: "#d9d9d9",
     },
 });
 

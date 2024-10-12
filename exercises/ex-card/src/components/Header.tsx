@@ -10,11 +10,10 @@ const Header = () => {
 
 const styles = StyleSheet.create({
     header: {
-        backgroundColor: "#014017",
+        backgroundColor: "#042940",
         paddingVertical: 15,
         paddingHorizontal: 10,
-        borderTopLeftRadius: 10,
-        borderTopRightRadius: 10,
+   
     },
     headerText: {
         color: "#ffffff",
