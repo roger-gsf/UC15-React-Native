@@ -16,6 +16,7 @@ const Projects = () => {
 
 const styles = StyleSheet.create({
     projects: {
+        marginTop: 25,
         marginBottom: 20,
     },
     title: {

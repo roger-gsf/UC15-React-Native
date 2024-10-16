@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Image } from "react-native";
 import Projects from "./Projects";
 
 const Main = () => {
@@ -9,6 +9,14 @@ const Main = () => {
         My name is Róger Ferreira, I'm 18 years old and I'm a programming student.
         Currently, I'm doing a technician course in systems development and I have knowledge in several programming languages.
       </Text>
+
+      <Image
+        style={styles.image}
+        source={require('../assets/ProfileStandard.jpg')}
+      // For remote images, you can use:
+      // source={{ uri: 'https://example.com/my-image.jpg' }} 
+      />
+
       <Text style={styles.title}>Skills</Text>
       <Text style={styles.text}>
         -{">"} JavaScript{'\n'}
@@ -21,16 +29,16 @@ const Main = () => {
       </Text>
       <Projects />
     </View>
-  )
+  );
 }
 
 const styles = StyleSheet.create({
   main: {
+    display: 'flex',
+    justifyContent: 'center',
     flex: 1,
     backgroundColor: "#171F26",
     padding: 20,
-    display: 'flex',
-    justifyContent: 'center',
   },
   title: {
     fontSize: 18,
@@ -41,7 +49,13 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 16,
     color: "#d9d9d9",
-    marginBottom: 20,
+  },
+  image: {
+    width: 150, // Adjust width
+    height: 150, // Adjust height
+    borderRadius: 22, // Optional, for circular image
+    marginTop: 25,
+    marginBottom: 25,
   },
 });
 
