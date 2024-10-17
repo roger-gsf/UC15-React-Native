@@ -1,19 +1,19 @@
-import { Text, StyleSheet, ScrollView } from "react-native";
+import { Text, StyleSheet } from "react-native";
 import Post from "../components/Post";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Footer from "../components/Footer";
 
 const Home = () => {
+  // Lógica
+  //npx expo install react-native-safe-area-context
   return (
     <SafeAreaView style={styles.container}>
-      <ScrollView contentContainerStyle={styles.scrollContent}>
-        <Text style={styles.title}>Meu título</Text>
-        <Post title="Texto 1" />
-        <Post title="Texto 2" />
-        <Post title="Texto 3" />
-        <Post title="Texto 4" />
-        <Footer />
-      </ScrollView>
+      <Text style={styles.title}>Meu título</Text>
+      <Post title="Texto 1" />
+      <Post title="Texto 2" />
+      <Post title="Texto 3" />
+      <Post title="Texto 4" />
+      <Footer />
     </SafeAreaView>
   );
 };
@@ -22,8 +22,6 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: "#252525",
     flex: 1,
-  },
-  scrollContent: {
     alignItems: "center",
     justifyContent: "space-around",
   },
