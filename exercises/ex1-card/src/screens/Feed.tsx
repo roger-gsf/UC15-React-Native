@@ -6,16 +6,28 @@ const Feed = () => {
     return (
         <ScrollView contentContainerStyle={styles.feed}>
             <Card
-                username="John Doe"
-                userImage="https://robohash.org/john"
+                username="Michael Jackson"
+                userImage="https://robohash.org/michael"
                 postText="This is my first post!"
                 postImage="https://picsum.photos/100"
             />
             <Card
-                username="Jane Smith"
-                userImage="https://robohash.org/jane"
+                username="Leon Kennedy"
+                userImage="https://robohash.org/leon"
                 postText="Loving this app!"
-                postImage="https://picsum.photos/200"
+                postImage="https://picsum.photos/101"
+            />
+            <Card
+                username="Ethan Winters"
+                userImage="https://robohash.org/ethan"
+                postText="This is my first post!"
+                postImage="https://picsum.photos/102"
+            />
+            <Card
+                username="Jane Foster"
+                userImage="https://robohash.org/jane"
+                postText="This is my first post!"
+                postImage="https://picsum.photos/103"
             />
         </ScrollView>
     );

@@ -22,6 +22,8 @@ const Card = ({ username, userImage, postText, postImage }: CardProps) => {
             <View style={styles.footer}>
                 <Feather name="heart" size={24} color="#f00" />
                 <Feather name="message-circle" size={24} color="#252525" />
+                <Feather name="share" size={24} color="#252525" />
+                <Feather name="bookmark" size={24} color="#252525" />
             </View>
         </View>
     );
