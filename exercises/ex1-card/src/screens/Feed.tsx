@@ -1,4 +1,3 @@
-// src/screens/Feed.tsx
 import React from 'react';
 import { ScrollView, StyleSheet, View } from 'react-native';
 import Card from '../components/Card';
@@ -10,7 +9,7 @@ const Feed = () => {
                 username="John Doe"
                 userImage="https://robohash.org/john"
                 postText="This is my first post!"
-                postImage="https://picsum.photos/200"
+                postImage="https://picsum.photos/100"
             />
             <Card
                 username="Jane Smith"
